@@ -15,14 +15,14 @@ export const HeaderIconsContainer = styled.div`
   font-weight: bold;
 
   p {
-    margin: 12px 45px;
+    margin: 18px 45px;
   }
 `;
 
 export const NetworkIcon = styled(CellularData1)`
   color: ${({ color }) => color};
   width: 22px;
-  height: 17px;
+  height: 22px;
   margin-left: 180px;
   margin-top: 12px;
 `;
@@ -30,16 +30,16 @@ export const NetworkIcon = styled(CellularData1)`
 export const WifiIcon = styled(Wifi)`
   color: ${({ color }) => color};
   width: 22px;
-  height: 17px;
+  height: 22px;
   margin-top: 12px;
+  margin-left: 10px;
 `;
 
 
 export const BatteryIcon = styled(Battery1)`
   color: ${({ color }) => color};
-  width: 20px;
-  height: 18px;
+  width: 30px;
+  height: 26px;
   margin-top: 12px;
+  margin-left: 5px;
 `;
-
-

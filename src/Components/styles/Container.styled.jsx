@@ -6,6 +6,11 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  h1 {
+    font-size: 38px;
+    font-weight: 400;
+  }
   
 `;
 
