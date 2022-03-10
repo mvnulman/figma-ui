@@ -10,6 +10,8 @@ export const Wrapper = styled.div`
   h1 {
     font-size: 38px;
     font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
   }
   
 `;
@@ -21,6 +23,21 @@ export const ContainerLogin = styled.div`
   border: 1px solid #ecebeb;
   background: #f2fdff;
   margin: 10px 10px;
+
+  p {
+    margin-top: 20px;
+    font-size: 11px
+  }
+
+  h3 {
+    margin-top: 30px;
+    font-weight: 400;
+    color: #504E4E;
+  }
+  span {
+    color: #5222D0;
+    font-weight: bold;
+  }
 `;
 
 export const ContainerSignIn = styled.div`

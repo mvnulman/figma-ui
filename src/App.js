@@ -13,6 +13,7 @@ import {
 } from "./Components/styles/HeaderIcons.styled";
 import Myimg from "./assets/yoga-woman.png";
 import { YogaImg } from "./Components/styles/YogaImg";
+import ButtonStyled from "./Components/Button";
 
 function App() {
   return (
@@ -32,7 +33,9 @@ function App() {
             yoga classes & <br />
             workouts
           </h1>
-          <button>Sign up with Google</button>
+          <ButtonStyled />
+          <p>By signing up you accept the Terms of Service <br />and Privacy Policy</p>
+          <h3>Already have an account? <span>Sign in</span></h3>
         </ContainerLogin>
 
         <ContainerSignIn>

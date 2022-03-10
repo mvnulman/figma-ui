@@ -16,6 +16,7 @@ export const HeaderIconsContainer = styled.div`
 
   p {
     margin: 18px 45px;
+    font-size: 15px;
   }
 `;
 
