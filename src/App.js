@@ -14,6 +14,7 @@ import {
 import Myimg from "./assets/yoga-woman.png";
 import { YogaImg } from "./Components/styles/YogaImg";
 import ButtonStyled from "./Components/Button";
+import {ButtonSignUp} from "./Components/ButtonSignUp";
 import { MainStyled, EyeIcon } from "./Components/styles/Main.styled";
 import { FormGroup, Input } from "./Components/Form";
 
@@ -70,6 +71,7 @@ function App() {
           </FormGroup>
           <FormGroup>
             <Input type="password" placeholder="Confirm Password" /><EyeIcon />
+            <ButtonSignUp /> 
           </FormGroup>
         </ContainerSignIn>
       </Wrapper>
