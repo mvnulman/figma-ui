@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 export const ContainerLogin = styled.div`
   text-align: center;
   width: 414px;
-  height: 800px;
+  height: 896px;
   border: 1px solid #ecebeb;
   background: #f2fdff;
   margin: 10px 10px;
@@ -45,7 +45,7 @@ export const ContainerLogin = styled.div`
 export const ContainerSignIn = styled.div`
   text-align: center;
   width: 414px;
-  height: 800px;
+  height: 896px;
   border: 1px solid #ecebeb;
   background: #f2fdff;
   margin: 0 10px;

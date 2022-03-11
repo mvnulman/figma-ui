@@ -12,10 +12,12 @@ import {
   NetworkIcon,
 } from "./Components/styles/HeaderIcons.styled";
 import Myimg from "./assets/yoga-woman.png";
+import Myimg2 from "./assets/yoga-woman-2.png";
 import { YogaImg } from "./Components/styles/YogaImg";
+import { YogaImg2 } from "./Components/styles/YogaImg2";
 import ButtonStyled from "./Components/Button";
 import {ButtonSignUp} from "./Components/ButtonSignUp";
-import { MainStyled, EyeIcon } from "./Components/styles/Main.styled";
+import { MainStyled, EyeIcon, PurpleFooter} from "./Components/styles/Main.styled";
 import { FormGroup, Input } from "./Components/Form";
 
 function App() {
@@ -73,6 +75,8 @@ function App() {
             <Input type="password" placeholder="Confirm Password" /><EyeIcon />
             <ButtonSignUp /> 
           </FormGroup>
+          <YogaImg2 src={Myimg2} alt="" />
+          <PurpleFooter/>
         </ContainerSignIn>
       </Wrapper>
     </>
