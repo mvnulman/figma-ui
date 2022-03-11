@@ -4,14 +4,13 @@ import { Wifi } from "@styled-icons/boxicons-regular/Wifi";
 import { CellularData1 } from "@styled-icons/fluentui-system-filled/CellularData1";
 
 export const HeaderIconsContainer = styled.div`
-  background: #7929ff;
+  background: ${({background}) => background};
   width: 100%;
   height: 250px;
   border-radius: 0 0 200px 200px;
   color: #fff;
   display: flex;
   justify-content: first baseline;
-  font-size: 13px;
   font-weight: bold;
 
   p {

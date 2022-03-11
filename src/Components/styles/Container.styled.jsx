@@ -24,16 +24,18 @@ export const ContainerLogin = styled.div`
   background: #f2fdff;
   margin: 10px 10px;
 
-  p {
-    margin-top: 20px;
-    font-size: 11px
-  }
 
   h3 {
     margin-top: 30px;
-    font-weight: 400;
+    font-weight: 300;
     color: #504E4E;
+    font-size: 18px;
   }
+
+  h6 {
+    font-weight: 400;
+  }
+
   span {
     color: #5222D0;
     font-weight: bold;
