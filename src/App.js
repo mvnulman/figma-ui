@@ -14,6 +14,8 @@ import {
 import Myimg from "./assets/yoga-woman.png";
 import { YogaImg } from "./Components/styles/YogaImg";
 import ButtonStyled from "./Components/Button";
+import { MainStyled } from "./Components/styles/Main.styled";
+import { FormGroup, Input } from "./Components/Form";
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
       <GlobalStyles />
       <Wrapper>
         <ContainerLogin>
-          <HeaderIconsContainer>
-            <p>22:37</p>
+          <HeaderIconsContainer background="#7929ff">
+            <p style={{ fontSize: "15px" }}>22:37</p>
             <NetworkIcon color="#fff" />
             <WifiIcon color="#fff" />
             <BatteryIcon color="#fff" />
@@ -34,12 +36,41 @@ function App() {
             workouts
           </h1>
           <ButtonStyled />
-          <p>By signing up you accept the Terms of Service <br />and Privacy Policy</p>
-          <h3>Already have an account? <span>Sign in</span></h3>
+          <h6>
+            By signing up you accept the{" "}
+            <b>
+              Terms of Service <br />
+              and Privacy Policy
+            </b>
+          </h6>
+          <h3>
+            Already have an account? <span>Sign in</span>
+          </h3>
         </ContainerLogin>
 
         <ContainerSignIn>
-          <h1>Testing 1, 2, 3...</h1>
+          <HeaderIconsContainer background="#f2fdff">
+            <p style={{ color: "#4E4646" }}>22:37</p>
+            <NetworkIcon color="#4E4646" />
+            <WifiIcon color="#4E4646" />
+            <BatteryIcon color="#4E4646" />
+          </HeaderIconsContainer>
+          <MainStyled>
+            <h1>Create Account</h1>
+            <h4>Enter your personal details and start your classes today.</h4>
+          </MainStyled>
+          <FormGroup>
+            <Input type="text" placeholder="Full Name" />
+          </FormGroup>
+          <FormGroup>
+            <Input type="email" placeholder="Email" />
+          </FormGroup>
+          <FormGroup>
+            <Input type="password" placeholder="Password" />
+          </FormGroup>
+          <FormGroup>
+            <Input type="password" placeholder="Confirm Password" />
+          </FormGroup>
         </ContainerSignIn>
       </Wrapper>
     </>
