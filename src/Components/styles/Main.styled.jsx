@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { EyeSlash } from "@styled-icons/bootstrap/EyeSlash"
 
 export const MainStyled = styled.div`
   h1 {
@@ -14,3 +15,9 @@ export const MainStyled = styled.div`
     font-weight: 400;
   }
 `;
+
+export const EyeIcon = styled(EyeSlash) `
+  position: relative;
+  width: 22px;
+  right: 30px ;
+`

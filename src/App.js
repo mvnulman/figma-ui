@@ -14,7 +14,7 @@ import {
 import Myimg from "./assets/yoga-woman.png";
 import { YogaImg } from "./Components/styles/YogaImg";
 import ButtonStyled from "./Components/Button";
-import { MainStyled } from "./Components/styles/Main.styled";
+import { MainStyled, EyeIcon } from "./Components/styles/Main.styled";
 import { FormGroup, Input } from "./Components/Form";
 
 function App() {
@@ -66,10 +66,10 @@ function App() {
             <Input type="email" placeholder="Email" />
           </FormGroup>
           <FormGroup>
-            <Input type="password" placeholder="Password" />
+            <Input type="password" placeholder="Password"/><EyeIcon />
           </FormGroup>
           <FormGroup>
-            <Input type="password" placeholder="Confirm Password" />
+            <Input type="password" placeholder="Confirm Password" /><EyeIcon />
           </FormGroup>
         </ContainerSignIn>
       </Wrapper>
