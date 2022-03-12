@@ -25,6 +25,6 @@ export const PurpleFooter = styled.div `
     width: 100%;
     margin-top: -12px;
     background:#7929ff ;
-    height: 170px;
+    height: 17 0px;
     border-radius: 200px 200px 0px 0px;
 `
