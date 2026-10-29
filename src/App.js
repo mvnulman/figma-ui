@@ -11,8 +11,8 @@ import {
   WifiIcon,
   NetworkIcon,
 } from "./Components/styles/HeaderIcons.styled";
-import Myimg from "./assets/yoga-woman.png";
-import Myimg2 from "./assets/yoga-woman-2.png";
+import Myimg from "./Assets/yoga-woman.png";
+import Myimg2 from "./Assets/yoga-woman-2.png";
 import { YogaImg } from "./Components/styles/YogaImg";
 import { YogaImg2 } from "./Components/styles/YogaImg2";
 import ButtonStyled from "./Components/Button";
